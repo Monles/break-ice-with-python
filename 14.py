@@ -12,4 +12,23 @@
 
 # In case of input data being supplied to the question, it should be assumed to be a console input.
 
+word = input()
+upper, lower = 0, 0
 
+for i in word:
+  if i.isupper():
+    upper += 1
+  elif i.islower:
+    lower += 1
+
+print(f"UPPER CASE {upper}")
+print(f"LOWER CASE {lower}")
+
+# Another method
+# word = input()
+
+# upper = sum(1 for i in word if i.isupper())
+# lower = sum(1 for i in word if i.islower())
+
+# print(f"UPPER CASE {upper}")
+# print(f"LOWER CASE {lower}")
