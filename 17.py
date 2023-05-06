@@ -19,20 +19,14 @@
 
 total = 0
 while True:
-  a = input().split()
-  if not a:
-    break
-  type, num = map(str, a)
+    a = input().split()
+    if not a:
+        break
+    type, num = map(str, a)
 
-  if type == 'D':
-    total += int(num)
-  elif type == 'W':
-    total -= int(num)
+    if type == 'D':
+        total += int(num)
+    elif type == 'W':
+        total -= int(num)
 
 print(total)
-
-
-
-
-
-
