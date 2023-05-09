@@ -16,4 +16,4 @@ print("%s name is %s" % (car.name, tesla.name))
 
 porsche = car()
 porsche.name = "porsche"
-print("%s name is %s" % (car.name, porsche.name))
+print("%s name is %s" % (car.name, Porsche.name))
