@@ -4,6 +4,7 @@
 
 # Hints:
 # Define an instance parameter, need add it in __init__ method.You can init an object with construct parameter or set the value later
+
 class car:
     name = "Car"
 
@@ -16,4 +17,4 @@ print("%s name is %s" % (car.name, tesla.name))
 
 porsche = car()
 porsche.name = "porsche"
-print("%s name is %s" % (car.name, Porsche.name))
+print("%s name is %s" % (car.name, porsche.name))
